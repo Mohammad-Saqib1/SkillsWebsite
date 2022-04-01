@@ -1,0 +1,82 @@
+
+    body{
+        background: url('a.jpg');
+    }
+.container {
+    display: flex;
+    height: 52px;
+    width: 470px;
+    background-color:seagreen;
+    
+    margin: -62px auto;}
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li {
+        display: inline-block;
+        text-decoration: none;
+    }
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 3px;
+        padding-right: 3px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        border:3px solid red ;
+    }
+    
+ h1{
+     color:black;
+     display: inline-block;
+     border:5px solid white
+ }
+    h1:hover {
+        background-color: tan;
+        color: teal;
+    }
+    .navbar li a:hover {
+        background-color:purple;
+        color: rgb(255, 0, 0);
+    }
+    .right {
+        padding:0px 9px;
+        margin: 0px 9px;
+        display: inline-block;
+        text-align: center;
+    }
+    .form-input {
+        margin-top: 200px;
+        margin-left: 15px;
+        border: 3px solid red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        height: 350px;
+        font-size: 3opx;
+        width:250px ;
+        color: burlywood;
+        background-color: chocolate;
+        text-align:center;
+        border-radius: 15px;
+    }
+    input {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3opx;
+        border: 3px solid black;
+        border-radius: 2px;
+    }
+    .c{
+        border: 3px solid green;
+        border-radius: 5px;
+        background-color: burlywood;
+        color: black;
+    }
+    .c:hover {
+        background-color: purple;
+        color: salmon;
+    }
+    .area {background-color: seagreen;
+    color: snow;
+border: 3px solid black;
+border-radius: 3px;
+    }
